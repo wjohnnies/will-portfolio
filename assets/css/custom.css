@@ -335,3 +335,107 @@
     right: 30px;
 
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ===========================
+   Contact Section Layout
+   =========================== */
+
+#footer .split.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 50px 40px;
+}
+
+#footer .split.contact>section {
+    flex: 0 1 auto;
+    width: auto;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#footer .split.contact>section h3 {
+    margin-bottom: 10px;
+}
+
+#footer .split.contact>section p {
+    margin: 0;
+}
+
+/* Social icons */
+#footer .split.contact .icons {
+    margin: 0;
+}
+
+/* Keep phone number on one line */
+#footer .split.contact>section:nth-child(2) p {
+    white-space: nowrap;
+}
+
+/* Keep social icons on one line */
+#footer .split.contact .icons {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 12px;
+}
+
+#footer .split.contact .icons li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===========================
+   Contact Group Alignment
+   =========================== */
+
+#footer .split.contact {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 65px 60px;
+}
+
+#footer .split.contact>section {
+    width: auto !important;
+    min-width: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+#footer .split.contact>section h3 {
+    margin: 0 !important;
+    white-space: nowrap;
+}
+
+#footer .split.contact>section p {
+    margin: 0 !important;
+}
+
+#footer .split.contact .icons {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center;
+    gap: 10px;
+    margin: 0 !important;
+}
+
+#footer .split.contact .icons li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
