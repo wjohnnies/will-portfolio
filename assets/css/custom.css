@@ -121,6 +121,48 @@
         height: 450px;
     }
 
+    /* Mobile Lightbox */
+    #lightbox img {
+        max-width: 80vw;
+        max-height: 80vh;
+    }
+
+    #lightbox-prev,
+    #lightbox-next {
+        font-size: 40px;
+        padding: 10px;
+        z-index: 10000;
+    }
+
+    #lightbox-prev {
+        left: 5px;
+    }
+
+    #lightbox-next {
+        right: 5px;
+    }
+
+    #lightbox-close {
+        top: 15px;
+        right: 20px;
+        font-size: 40px;
+        z-index: 10000;
+    }
+
+    /* Mobile Contact Layout */
+    #footer .split.contact {
+        grid-template-columns: 1fr !important;
+        gap: 35px;
+        padding: 50px 30px;
+    }
+
+    #footer .split.contact>section {
+        justify-content: center;
+    }
+
+    #footer .split.contact .icons {
+        justify-content: center;
+    }
 }
 
 /* ===========================
