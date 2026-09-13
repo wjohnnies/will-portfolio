@@ -481,3 +481,19 @@ html {
     margin: 0 !important;
     padding: 0 !important;
 }
+
+@media screen and (max-width: 980px) {
+    #footer .split.contact>section {
+        display: grid !important;
+        grid-template-columns: 110px 1fr;
+        align-items: center;
+        justify-content: initial !important;
+        gap: 12px;
+        text-align: left;
+    }
+
+    #footer .split.contact .icons {
+        justify-content: flex-start !important;
+        margin: 0 !important;
+    }
+}
